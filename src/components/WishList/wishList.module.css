@@ -1,0 +1,16 @@
+.container{
+    box-sizing: border-box;
+    margin: 40px auto 0;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(16, calc((100% - 15 * 16px)/16));
+    grid-template-rows: repeat(16, 95px);
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+.wishFormOpener{
+    border: 2px dashed #333;
+    border-radius: 10px;
+    grid-area: span 4 / span 4 / auto / auto;
+}
